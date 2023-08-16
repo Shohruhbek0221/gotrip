@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'RR';
+    font-family: 'IR';
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+
+.header-nav-box{
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.header-nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px
+}
+.header-nav-link{
+    color: #FFF;
+font-family: 'RM';
+font-size: 16px;
+
+}
+
+.header-nav{
+    background: #3E8989;
+    padding: 33px;
+}
+.logo{
+    width: 86px;
+height: 26px;
+}
+.header-form-search{
+    width: 216px;
+height: 35px;
+color: #898989;
+font-family: 'RR';
+font-size: 16px;
+border: none;
+border-radius: 20px 0px 0px 20px;
+background: #FFF;
+padding: 10px 10px 10px 20px ;
+
+
+}
+.header-form-search:focus{
+    outline: none;
+}
+.header-form-button{
+    width: 74px;
+height: 35px;
+font-family: 'RR';
+font-size: 14px;
+border-radius: 0px 20px 20px 0px;
+background: #295E5E;
+border: none;
+color: #FFF;
+font-family: 'RR';
+font-size: 14px;
+}
+.header-form{
+    display: flex;
+
+}
+.header-top-box{
+    background: url(../images/bg.jpg) no-repeat center /cover;
+height: 800px;
+
+}
+
+.header-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+
+}
+.header-box-title{
+    color: #FFF;
+font-family: 'RS';
+font-size: 80px;
+margin-bottom: 20px;
+}
+.header-box-text{
+    color: #FFF;
+font-family: 'RM';
+font-size: 40px;
+margin-bottom: 50px;
+}
+.header-box-button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+background: #B4436C; 
+border: none;
+color: #FFF;
+font-family: 'IS';
+font-size: 18px;
+transition: 500ms all;
+}
+.header-box-button:hover{
+    background-color: #FFFFFF;
+    color: #B4436C;
+}
+.main-top-title{
+    text-align: center;
+    color: #3E8989;
+font-family: 'IS';
+font-size: 40px;
+margin-bottom: 50px;
+margin-top: 80px;
+}
+.main-top{
+    display: flex;
+    gap: 20px;
+}
+.main-top-img{
+width: 545px;
+height: 261px;
+}
+.main-top-text{
+display: flex;
+flex-direction: column;
+gap: 20px;
+color: #000000;
+font-family: 'RR';
+font-size: 18px;
+font-style: normal;
+}
+.main-top-span{
+color: #000000;
+font-family: 'RR';
+font-size: 18px;
+font-style: normal;
+}
+.main-middle-title{
+    color: #3E8989;
+font-family: 'IS';
+font-size: 40px;
+text-align: center;
+margin-top: 100px;
+margin-bottom: 55px;
+}
+.main-middle-item{
+    display: flex;
+    flex-direction: column;
+ gap: 30px;
+ 
+}
+.main-middle-item-img{
+    width: 263px;
+    height: 300px;
+ background: #EFEFEF;
+ display: flex;
+ justify-content: center;
+ padding: 2px 32px;
+ transition: 1000ms all;
+}
+
+.main-middle-item-img:hover{
+background-color: #B4436C;
+}
+
+.main-middle-item-link{
+    color: #000;
+font-family: 'IS';
+font-size: 24px;
+text-align: center;
+transition: 1000ms all;
+}
+.main-middle-item-link:hover{
+    color: #B4436C;
+}
+.main-middle-item-b{
+ display: flex;
+ gap: 20px;
+}
+
+
+.main-bottom-box-text{
+    color: #000;
+font-family: 'RR';
+font-size: 20px;
+}
+.main-bottom-tel{
+    color: #000;
+    font-family: 'RR';
+    font-size: 20px;
+   
+}
+.main-bottom-mail{
+    color: #000;
+    font-family: 'RR';
+    font-size: 20px;
+
+}
+.main-bottom-box-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-bottom-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.t{
+    color: #000;
+    font-family: 'RR';
+    font-size: 20px;
+}
+.main-bottom-title{
+    color: #3E8989;
+font-family: 'IS';
+font-size: 40px;
+margin-top: 100px;
+margin-bottom: 50px;
+text-align: justify;
+}
+.footer{
+    background: #3E8989;
+ 
+}
+.footer-box-link{
+    color: #FFF;
+font-family: 'RM';
+font-size: 16px;
+}
+.footer-end{
+    color: #FFF;
+font-family: 'RR';
+font-size: 14px;
+margin-bottom: 15px;
+}
+.footer-box-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    
+}
+.footer-box-list{
+    display: flex;
+    gap:30px ;
+    margin-top: 40px;
+}
